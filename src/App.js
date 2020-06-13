@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import UpdateDay from './UpdateDay.js';
 import day from './day.jpg';
 import night from './night.jpeg';
 import './App.css';
