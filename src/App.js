@@ -14,7 +14,7 @@ function App() {
      
       <center>
       <h2>Have a Good {isNight ? "Night" : "Morning"}</h2>
-      <img src = {image} height = "300" width = "300" />
+      <img src = {image} height = "300" width = "300" alt = ""/>
       <br />
       <button onClick =  {()=>{setNight(!isNight); isNight ? setImage(day): setImage(night)} }> update Day </button>
       <p>Value of Counter: {counter}</p>
